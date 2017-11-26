@@ -1,5 +1,5 @@
 # Cuckoo-Open-Addressed-HashSet
-Including sequential, concurrent and transactional version
+Including sequential, concurrent and transactional versions.
 
 This is an assignment of parallel computing course in Lehigh, here I paste the requirement below, 
 all implementation and performance details can see this requirement and the REPORT.pdf.
