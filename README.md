@@ -1,9 +1,9 @@
 # Cuckoo-Open-Addressed-HashSet
 
-< I > Cuckoo HashSet: <br>
+### < I > Cuckoo HashSet: <br>
   A type of open-addressed hashset could be found in Chapter 13.4 of the textbook "The Art of Multiprocessor Programming (there are some defects of original algorithms).
   
-< II > Code Structure:<br>
+### < II > Code Structure:<br>
   Three ".h" file contain the sequential hashset, concurrent hashset and transactional hashset(also a version of concurrent), main function in "hash.cpp" calls these three hashset header file then uses timer to count running time of all these three versions of hashset.
 
 < III > How main function works:<br>
