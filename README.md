@@ -15,9 +15,7 @@ Variable named `OPERATION_NUM` set total number of add and remove operations, th
 - Concurrent and transactional versions need to devide all opeartions in same amount into each thread then call them. 
 
 
-We firstly use muli-threads to finish add operation then use same number of threads to finish remove, since call them together in same thread will cause some loss of removing.
-
-In addition, there is an official unordered hashset in main function and do the same operations to show that whether our self-defined hashsets could correctly match results of official hashset.
+We firstly use muli-threads to finish add operation then use same number of threads to finish remove, since call them together in same thread will cause some loss of removing. In addition, there is an official unordered hashset in main function and do the same operations to show that whether our self-defined hashsets could correctly match results of official hashset.
   
 ### < IV > About Transaction Toolkits
 
