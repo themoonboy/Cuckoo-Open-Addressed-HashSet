@@ -20,9 +20,10 @@ We firstly use muli-threads to finish add operation then use same number of thre
 In addition, there is an official unordered hashset in main function and do the same operations to show that whether our self-defined hashsets could correctly match results of official hashset.
   
 ### < IV > About Transaction Toolkits
-   The transactional version of the data structure uses very advanced synchronization abstractions, which are not yet as robust as classical locking mechanisms, such as mutex. Thus under strict test case (like large amount of operation number and resizing case) transactional version will not work.<\br>
-   There is a `__transaction_relax ` tool maybe useful to solve this issue. I haven't try this tech but you can have a learning a try :)
+
+The transactional version of the data structure uses very advanced synchronization abstractions, which are not yet as robust as classical locking mechanisms, such as mutex. Thus under strict test case (like large amount of operation number and resizing case) transactional version will not work. There is a `__transaction_relax ` tool maybe useful to solve this issue. I haven't try this tech but you can have a learning a try :)
    
 ### < V > Platforms
- > Linux is the matched OS, the transaction memory toolkits are implemented in GCC starting from version 4.7. Use the latest version of GCC available (I use gcc-7.1.0).
+
+> Linux is the matched OS, the transaction memory toolkits are implemented in GCC starting from version 4.7. Use the latest version of GCC available (I use gcc-7.1.0).
    
